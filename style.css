@@ -6,6 +6,11 @@ a {
   font-size: 20px;
 }
 
+p {
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+}
+
 a:hover {
   color: #7C99AC
 }
@@ -55,6 +60,18 @@ h1 {
 
 .img-circle {
   border-radius: 45%;
+}
+
+.btn-red {
+  background-color: #e45d60;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer
+}
+
+#margin-btn {
+  margin-top: 100px;
 }
 
 @media (max-width: 960px) {
